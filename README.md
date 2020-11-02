@@ -17,6 +17,7 @@ jobs:
         url: "ftp://ftp.example.com/path/"
         user: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PWD }}
+        options: --auto-init
 ```
 
 ## Input parameters
