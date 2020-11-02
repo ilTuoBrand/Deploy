@@ -20,4 +20,4 @@ jobs:
         options: --auto-init
 ```
 
-- Read the [manual](man/git-ftp.1.md) for more options, features and examples.
+**Read the [manual](https://github.com/git-ftp/git-ftp/blob/1.6.0/man/git-ftp.1.md) for more options, features and examples.**
