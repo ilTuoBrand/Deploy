@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: git-ftp push
-      uses: ilTuoBrand/deploy@releases/v3
+      uses: ilTuoBrand/deploy@releases/v1
       with:
         url: ${{ secrets.FTP_SERVER }}
         user: ${{ secrets.FTP_USER }}
