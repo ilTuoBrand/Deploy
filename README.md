@@ -2,7 +2,7 @@
 
 ## Example usage
 
-```
+```yml
 name: Deploy via git-ftp
 on: push
 jobs:
