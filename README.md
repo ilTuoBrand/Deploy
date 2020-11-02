@@ -3,7 +3,7 @@
 ## Example usage
 
 ```yml
-name: Deploy via git-ftp
+name: Deploy 🚀
 on: push
 jobs:
   deploy:
@@ -15,8 +15,8 @@ jobs:
       uses: ilTuoBrand/deploy@releases/v1
       with:
         url: ${{ secrets.FTP_SERVER }}
-        user: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PWD }}
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         options: --auto-init
 ```
 
