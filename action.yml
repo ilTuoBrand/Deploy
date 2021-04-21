@@ -2,6 +2,10 @@ name: 'deploy'
 author: 'Valentino Pesce <valentino@iltuobrand.it>'
 description: 'Actions to deploy a GitHub repository to a FTP server.'
 inputs:
+  filename:
+    description: 'The filename to write the version tag to'
+    required: false
+    default: '/.VERSION'
   url:
     description: 'URL'
     required: true
