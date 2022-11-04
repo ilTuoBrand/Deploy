@@ -4,7 +4,7 @@ COPY LICENSE README.md /
 
 RUN apk add --no-cache bash curl git
 
-RUN curl https://raw.githubusercontent.com/git-ftp/git-ftp/1.6.0/git-ftp > /bin/git-ftp
+RUN curl https://raw.githubusercontent.com/ilTuoBrand/git-ftp/1.6.0/git-ftp > /bin/git-ftp
 
 RUN chmod 755 /bin/git-ftp
 
